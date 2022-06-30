@@ -1,0 +1,359 @@
+body{
+    margin:110px;
+    margin-top: 110px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+.slider{
+    width:1300px;
+    height:500px;
+    overflow: hidden;
+}
+.slides{
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+.slides input{
+    display: none;
+}
+.back_image{
+    width:20%;
+    transition: 2s;
+}
+.back_img{
+    width:1300px;
+    height:500px;
+}
+.Nav_bar{
+    display: flex;
+    align-items: center;
+    background-color: rgb(15, 14, 14);
+    color: antiquewhite;   
+}
+.heading{
+    margin-left:250px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.home{
+    margin-left:250px;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.3s;
+}
+.home:hover{
+    box-shadow: 0px 0px 2px 3px  aqua;
+    color: aqua;
+}
+.about{
+    margin-left: 18px;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.3s;
+}
+.about:hover{
+    box-shadow: 0px 0px 2px 3px  aqua;
+    color: aqua;
+}
+.work{
+    margin-left: 18px;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.3s;
+}
+.work:hover{
+    box-shadow: 0px 0px 2px 3px  aqua;
+    color: aqua;
+}
+.team{
+    margin-left:18px;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.3s;
+}
+.team:hover{
+    box-shadow: 0px 0px 2px 3px  aqua;
+    color: aqua;
+}
+.service{
+    margin-left:18px;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.3s;
+}
+.service:hover{
+    box-shadow: 0px 0px 2px 3px  aqua;
+    color: aqua;
+}
+.features{
+    margin-left:18px;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.3s;
+}
+.features:hover{
+    box-shadow: 0px 0px 2px 3px  aqua;
+    color: aqua;
+}
+.contact{
+    margin-left:18px;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.3s;
+}
+.contact:hover{
+    box-shadow: 0px 0px 2px 3px  aqua;
+    color: aqua;
+    
+}
+.navigation_manual{
+    position: absolute;
+    width: 800px;
+    margin-top: -110px;
+    margin-left: 250px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.manual_btn{
+    border: 2px solid #fff;
+    padding:5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.manual_btn:hover{
+    background: #fff;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+.content{
+    margin-top:-400px;
+    margin-left:250px;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+p{
+    font-size: 12px;
+}
+.btn1{
+    width:80px;
+    height:25px;
+    font-size: 10px;
+    border-radius:4px;
+    cursor: pointer;
+}
+button:hover{
+    background-color:rgb(21, 139, 165);
+}
+.content_with_info{
+    margin-left: 250px;
+    margin-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    opacity: 0.6;
+}
+.social_media_info{
+   float: right;
+   margin-right:200px;
+   margin-top:-210px;
+}
+.list_1{
+    margin-bottom: -12px;
+}
+.list_2{
+    margin-bottom: -12px;
+}
+.horizontal_line{
+    width:1300px;
+    height:0.5px;
+    background-color: black;
+    opacity: 0.3;
+}
+.fa{
+    color: grey;
+}
+.slider_images{
+    display: flex;
+    justify-content: center;   
+}
+.professionls_details{
+    width:180px;
+    height:200px;
+    margin: 10px;
+}
+.Bio_data{
+    margin-top: -14px;
+    text-align:center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.p1{
+    margin-top: -20px;
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+    color: black;   
+}
+.image_data{
+    width:180px;
+    height:38px;
+    text-align: center;
+    margin-left: 10px;
+    background-color: grey;
+    opacity: 0.5;
+}
+.team_head{
+    margin-left:300px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.work_with_image{
+    width: 1300px;
+    height:600px;
+    background-color: rgb(41, 55, 71);
+}
+.work_image{
+    width:240px;
+    height:180px;
+    margin-left:20px;
+}
+.work_image_div{
+   display: flex;
+   margin-left:250px;
+   padding-top: 30px;
+
+}
+.work_image_div2{
+    display: flex;
+    margin-left:250px;
+    padding-top:20px;
+}
+.work_heading{
+    padding-top:40px;
+    margin-left:300px;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.show_more_btn{
+    margin-top: 50px;
+    margin-left:600px;
+    width:120px;
+    font-size:10px;
+    border-radius:3px; 
+    cursor: pointer;
+}
+.data_contact_heading{
+    margin-left: 300px;
+}
+.data_contact{
+   display: flex;
+   justify-content:center;
+   
+}
+.data_contact_inner{
+    text-align: center;
+    margin:20px;
+    
+}
+.fa-mobile , .fa-clock-o, .fa-pencil, .fa-cogs{
+   color: rgb(35, 212, 212);
+}
+h6{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.heading_3{
+    margin-left:250px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.features_div_cointainer{
+    width: 1300px;
+    height: 400px;
+    background-color: rgb(41, 55, 71);
+}
+.features_inner{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.features_heading{
+    margin-left: 300px;
+    padding-top:20px;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.features_para{
+    margin-top:-10px;
+    margin-left:50px;
+}
+.map_heading_para{
+    margin-left: 300px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.map_image{
+    width: 1300px;
+    height:300px;
+    margin-top: 20px;
+}
+.footer_deatails{
+    display: flex;
+}
+.btn3{
+    height:25px;
+    margin-top: 115px;
+    margin-left: 60px;
+    background-color: rgb(9, 201, 201);
+    border-radius:5px;
+    cursor: pointer;
+}
+.end_footer{
+    width:1300px;
+    height:50px;
+    background-color: rgb(41, 55, 71);
+    margin-bottom:300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+.social_media2  .fa{
+    margin:5px;
+    color: rgb(239, 235, 235);
+}
+.map_heading{
+    margin-left: 300px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.social_media .fa{
+   color: rgb(110, 106, 106);
+}
+
+
+
